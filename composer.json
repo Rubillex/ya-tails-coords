@@ -1,0 +1,19 @@
+{
+    "name": "rubillex/ya-tails-coords",
+    "description": "Assistant for converting coordinates to Yandex tails coords.",
+    "type": "library",
+    "require": {
+        "php": "^8.0"
+    },
+    "authors": [
+        {
+            "name": "Rubillex"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rubillex\\YaTailsCoords\\": "src/"
+        }
+    }
+}
