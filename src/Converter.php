@@ -10,7 +10,7 @@ use Rubillex\YaTailsCoords\DTO\TailDTO;
 
 final class Converter
 {
-    public static function CoordsToTailsTranslate($lat, $lon): TailDTO
+    public static function CoordsToTailsTranslate(string $lat, string $lon): TailDTO
     {
         $latitude = $lat * M_PI / 180;
         $longitude = $lon * M_PI / 180;
